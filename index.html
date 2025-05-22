@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payoo App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <section>
+      <div class="flex justify-center">
+        <div class="mockup-phone w-[400px] h-[700px] bg-white">
+          <div class="mockup-phone-camera"></div>
+          <div class="mockup-phone-display grid place-content-center ">
+            <div class="">
+              <picture>
+                <img class="m-auto" src="./images/payoo icon.png" alt="" />
+              </picture>
+            </div>
+            <form class="pr-5 mb-[150px]">
+              <!-- Email part start  -->
+              <label class="flex pb-3 text-base font-semibold" for="text"
+                >Email</label
+              >
+              <input
+                type="email"
+                placeholder="Enter your Email"
+                class="inputEmail input input-ghost bg-slate-200 py-6 w-[350px] rounded-2xl"
+              />
+              <!-- Email Part End  -->
+              <!-- Password Part start   -->
+              <label class="flex pt-8 pb-3 text-base font-semibold" for="text"
+                >Password</label
+              >
+              <input
+                type="password"
+                placeholder="Enter your password "
+                class="inputPassword input input-ghost bg-slate-200 py-6 w-[350px] rounded-2xl"
+                required
+                autocomplete="off"
+              />
+              <label class="flex pt-3 pb-8 text-xs font-normal" for="text"
+                >Forget Password</label
+              >
+              <!-- Password Part start   -->
+              <button
+                class="loginBtn w-full h-[50px] bg-[#0874F2] text-white rounded-2xl text-lg font-semibold hover:cursor-pointer"
+              >
+                Login
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
