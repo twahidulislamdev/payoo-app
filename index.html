@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>Payoo App</title>
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@5"
@@ -14,17 +17,23 @@
   <body>
     <section>
       <div class="flex justify-center">
-        <div class="mockup-phone w-[400px] h-[700px] bg-white">
+        <div class="mockup-phone border-primary bg-white w-[420px] h-[700px]">
           <div class="mockup-phone-camera"></div>
-          <div class="mockup-phone-display grid place-content-center ">
-            <div class="">
+          <div class="mockup-phone-display grid ">
+            <div class="flex justify-center items-center">
               <picture>
-                <img class="m-auto" src="./images/payoo icon.png" alt="" />
+                <img
+                  class="m-auto"
+                  src="./images/payoo icon.png"
+                  alt=""
+                />
               </picture>
             </div>
-            <form class="pr-5 mb-[150px]">
+            <form class="p-5 mb-[150px]">
               <!-- Email part start  -->
-              <label class="flex pb-3 text-base font-semibold" for="text"
+              <label
+                class="flex pb-3 text-base font-semibold"
+                for="text"
                 >Email</label
               >
               <input
@@ -34,7 +43,9 @@
               />
               <!-- Email Part End  -->
               <!-- Password Part start   -->
-              <label class="flex pt-8 pb-3 text-base font-semibold" for="text"
+              <label
+                class="flex pt-8 pb-3 text-base font-semibold"
+                for="text"
                 >Password</label
               >
               <input
@@ -44,7 +55,9 @@
                 required
                 autocomplete="off"
               />
-              <label class="flex pt-3 pb-8 text-xs font-normal" for="text"
+              <label
+                class="flex pt-3 pb-8 text-xs font-normal"
+                for="text"
                 >Forget Password</label
               >
               <!-- Password Part start   -->
@@ -61,3 +74,4 @@
     <script src="./js/script.js"></script>
   </body>
 </html>
+
