@@ -1,3 +1,4 @@
+// Login Page code Start
 document.querySelector(".loginBtn").addEventListener("click", function (event) {
   event.preventDefault();
   const inputEmail = document.querySelector(".inputEmail").value;
@@ -6,8 +7,11 @@ document.querySelector(".loginBtn").addEventListener("click", function (event) {
 
   if (inputEmail === "twahid746@gmail.com" && inputPassword === "123") {
     console.log("Login Successfull");
-    window.location.href = "home.html"
+    window.location.href = "home.html";
   } else {
     alert("You did someThing Wrong");
   }
 });
+// Login Page code End
+
+

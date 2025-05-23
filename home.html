@@ -7,7 +7,11 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>Home Page</title>
-    <link rel="shortcut icon" href="./images/payoo icon.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./images/payoo icon.png"
+      type="image/x-icon"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@5"
       rel="stylesheet"
@@ -39,7 +43,7 @@
               </div>
               <div class="flex justify-center">
                 <button
-                  class="btn btn-outline bg-black hover:text-white rounded-lg"
+                  class="homeLogOutBtn btn btn-outline bg-black hover:text-white rounded-lg"
                 >
                   Log Out
                 </button>
@@ -59,9 +63,10 @@
             <!-- Transfer Media Start  -->
             <div class="px-5 mt-10 flex justify-between items-center flex-wrap">
               <!-- Add Money Section Start  -->
-              <div
-                class="w-[40%] h-[80px] bg-white border-1 border-black rounded-xl py-2 hover:cursor-pointer"
+              <button
+                class="addMoney w-[40%] h-[90px] border rounded-xl px-6 py-4 flex flex-col items-center justify-center space-y-2 border-black hover:cursor-pointer"
               >
+                <!-- Wallet Icon with Plus Badge -->
                 <picture>
                   <svg
                     class="m-auto"
@@ -106,13 +111,14 @@
                     Add Money
                   </p>
                 </picture>
-              </div>
+              </button>
               <!-- Add Money Section End  -->
 
               <!-- Cash Out Section Start  -->
-              <div
-                class="w-[40%] h-[80px] bg-white border-1 border-black rounded-xl py-2 hover:cursor-pointer"
+              <button
+                class="cashOut w-[40%] h-[90px] border rounded-xl px-6 py-4 flex flex-col items-center justify-center space-y-2 border-black hover:cursor-pointer"
               >
+                <!-- Wallet Icon with Plus Badge -->
                 <picture>
                   <svg
                     class="m-auto"
@@ -147,19 +153,18 @@
                       fill="white"
                     />
                   </svg>
-
                   <p
                     class="text-center text-base font-semibold pt-1 text-black"
                   >
                     Cash Out
                   </p>
                 </picture>
-              </div>
+              </button>
               <!-- Cash Out Section End  -->
 
               <!-- Transfer Money Section Start  -->
               <div
-                class="w-[40%] h-[80px] bg-white border-1 border-black rounded-xl py-2 hover:cursor-pointer mt-5"
+                class="w-[40%] h-[90px] bg-white border-1 border-black rounded-xl py-3 hover:cursor-pointer mt-5"
               >
                 <picture>
                   <svg
@@ -243,7 +248,7 @@
 
               <!-- Pay Bill Section Start  -->
               <div
-                class="w-[40%] h-[80px] bg-white border-1 border-black rounded-xl py-2 hover:cursor-pointer mt-5"
+                class="w-[40%] h-[90px] bg-white border-1 border-black rounded-xl py-3 hover:cursor-pointer mt-5"
               >
                 <picture>
                   <svg
@@ -619,6 +624,6 @@
       </div>
     </section>
 
-    <script src="./js/script.js"></script>
+    <script src="./js/home.js"></script>
   </body>
 </html>
