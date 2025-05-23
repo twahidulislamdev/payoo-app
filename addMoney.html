@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Add Money</title>
+    <link rel="shortcut icon" href="./images/payoo icon.png" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <section class="flex justify-center">
+      <div class="mockup-phone border-primary bg-white w-[420px] h-[700px]">
+        <div class="mockup-phone-camera"></div>
+        <div class="mockup-phone-display">
+          <div class="text-white grid mt-10">
+            <div class="pt-7 px-5 flex justify-normal items-center">
+              <div class="flex justify-start items-center w-full">
+                <div class="">
+                  <picture>
+                    <img
+                      class="w-[40px]"
+                      src="./images/payoo icon.png"
+                      alt=""
+                    />
+                  </picture>
+                </div>
+                <div class="mx-3">
+                  <div class="text-2xl font-bold text-black">1000</div>
+                  <div class="stat-desc">Available Balance</div>
+                </div>
+              </div>
+              <div class="flex justify-center">
+                <button
+                  class="btn btn-outline bg-black hover:text-white rounded-lg"
+                >
+                  Log Out
+                </button>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <div class="">
+              <h3 class="text-center text-3xl text-neutral-800 font-bold">
+                ADD MONEY
+              </h3>
+            </div>
+            <form class="p-5 mb-[150px] mt-5">
+              <!-- Email part start  -->
+              <label
+                class="flex pb-3 text-base font-semibold text-black"
+                for="text"
+                >Amount</label
+              >
+              <input
+                type="number"
+                placeholder="Enter your Amount"
+                class="input input-ghost bg-slate-200 py-6 w-[350px] rounded-2xl text-black"
+              />
+              <!-- Email Part End  -->
+              <!-- Password Part start   -->
+              <label
+                class="flex pt-8 pb-3 text-base font-semibold text-black"
+                for="text"
+                >Password</label
+              >
+              <input
+                type="password"
+                placeholder="Enter your password "
+                class="input input-ghost bg-slate-200 py-6 w-[350px] rounded-2xl text-black"
+                required
+                autocomplete="off"
+              />
+              <label
+                class="flex pt-3 pb-8 text-xs font-normal text-black"
+                for="text"
+                >Forget Password</label
+              >
+              <!-- Password Part start   -->
+              <button
+                class="w-full h-[50px] bg-[#0874F2] text-white rounded-2xl text-lg font-semibold hover:cursor-pointer"
+              >
+                Login
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
