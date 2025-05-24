@@ -21,11 +21,11 @@
   </head>
   <body>
     <section class="flex justify-center">
-      <div class="mockup-phone border-primary bg-white w-[420px] h-[700px]">
+      <div class="mockup-phone border-primary bg-white w-[400px] h-[700px]">
         <div class="mockup-phone-camera"></div>
         <div class="mockup-phone-display">
           <div class="text-white grid mt-10">
-            <div class="pt-7 px-5 flex justify-normal items-center">
+            <div class="pt-7 px-5 mr-5 flex justify-normal items-center">
               <div class="flex justify-start items-center w-full">
                 <div class="">
                   <picture>
@@ -37,13 +37,13 @@
                   </picture>
                 </div>
                 <div class="mx-3">
-                  <div class="text-2xl font-bold text-black">1000</div>
+                  <div id="availableBalance" class="text-2xl font-bold text-black">1000</div>
                   <div class="stat-desc">Available Balance</div>
                 </div>
               </div>
               <div class="flex justify-center">
                 <button
-                  class="btn btn-outline bg-black hover:text-white rounded-lg"
+                  class="addMoneyLogOut btn btn-outline bg-black hover:text-white rounded-lg"
                 >
                   Log Out
                 </button>
@@ -55,19 +55,20 @@
                 ADD MONEY
               </h3>
             </div>
-            <form class="p-5 mb-[150px] mt-5">
-              <!-- Email part start  -->
+            <form class="m-auto pr-5 mb-[150px] mt-5">
+              <!-- Amount part start  -->
               <label
                 class="flex pb-3 text-base font-semibold text-black"
                 for="text"
                 >Amount</label
               >
               <input
+                id="addMoneyInputField"
                 type="number"
                 placeholder="Enter your Amount"
                 class="input input-ghost bg-slate-200 py-6 w-[350px] rounded-2xl text-black"
               />
-              <!-- Email Part End  -->
+              <!-- Amount Part End  -->
               <!-- Password Part start   -->
               <label
                 class="flex pt-8 pb-3 text-base font-semibold text-black"
@@ -75,6 +76,7 @@
                 >Password</label
               >
               <input
+                id="addMoneyPassword"
                 type="password"
                 placeholder="Enter your password "
                 class="input input-ghost bg-slate-200 py-6 w-[350px] rounded-2xl text-black"
@@ -88,9 +90,10 @@
               >
               <!-- Password Part start   -->
               <button
+              id="addMoneyBtn"
                 class="w-full h-[50px] bg-[#0874F2] text-white rounded-2xl text-lg font-semibold hover:cursor-pointer"
               >
-                Login
+                Add Money
               </button>
             </form>
           </div>
@@ -98,6 +101,6 @@
       </div>
     </section>
 
-    <script src="./js/script.js"></script>
+    <script src="./js/addMoney.js"></script>
   </body>
 </html>

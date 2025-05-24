@@ -13,9 +13,3 @@ document.querySelector('.homeLogOutBtn').addEventListener('click', ()=>{
   window.location.href = "index.html"
 })
 // Log out Code Start
-
-// Add Money Page code Start
-// Add Money Page code End
-
-// Cash Out Page code Start
-// Cash Out Page code End
