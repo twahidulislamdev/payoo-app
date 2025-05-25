@@ -9,6 +9,7 @@ document.getElementById("addMoneyBtn").addEventListener("click", (event) => {
     let availableBalanceValue = parseFloat(availableBalance.innerHTML);
     let newAddedAmount = addMoneyInputFieldValue + availableBalanceValue;
     availableBalance.innerHTML = newAddedAmount;
+    addMoneyInputField.value = "";
     // console.log(addMoneyInputFieldValue);
   } else {
     alert("Please Enter Your Password");
@@ -16,7 +17,7 @@ document.getElementById("addMoneyBtn").addEventListener("click", (event) => {
 });
 
 // Log out Code Start 
-document.querySelector('.addMoneyLogOut').addEventListener('click', ()=>{
+document.getElementById('logOutBtn').addEventListener('click', ()=>{
   window.location.href = "index.html"
 })
 // Log out Code Start

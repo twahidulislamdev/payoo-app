@@ -37,12 +37,13 @@
                   </picture>
                 </div>
                 <div class="mx-3">
-                  <div class="text-2xl font-bold text-black">1000</div>
+                  <div id="availableBalance" class="text-2xl font-bold text-black">1000</div>
                   <div class="stat-desc">Available Balance</div>
                 </div>
               </div>
               <div class="flex justify-center">
                 <button
+                id="logOutBtn"
                   class="btn btn-outline bg-black hover:text-white rounded-lg"
                 >
                   Log Out
@@ -63,6 +64,7 @@
                 >Amount</label
               >
               <input
+              id="cashOutInputField"
                 type="number"
                 placeholder="Enter your Amount"
                 class="input input-ghost bg-slate-200 py-6 w-[350px] rounded-2xl text-black"
@@ -75,6 +77,7 @@
                 >Password</label
               >
               <input
+              id="cashOutPassword"
                 type="password"
                 placeholder="Enter your password "
                 class="input input-ghost bg-slate-200 py-6 w-[350px] rounded-2xl text-black"
@@ -88,7 +91,8 @@
               >
               <!-- Password Part start   -->
               <button
-                class="w-full h-[50px] bg-[#0874F2] text-white rounded-2xl text-lg font-semibold hover:cursor-pointer"
+              id="cashOutBtn"
+                class="cashOutBtn w-full h-[50px] bg-[#0874F2] text-white rounded-2xl text-lg font-semibold hover:cursor-pointer"
               >
                Withdraw Money
               </button>
@@ -98,6 +102,6 @@
       </div>
     </section>
 
-    <script src="./js/script.js"></script>
+    <script src="./js/cashOut.js"></script>
   </body>
 </html>
