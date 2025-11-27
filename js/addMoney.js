@@ -16,8 +16,8 @@ document.getElementById("addMoneyBtn").addEventListener("click", (event) => {
   }
 });
 
-// Log out Code Start 
-document.getElementById('logOutBtn').addEventListener('click', ()=>{
-  window.location.href = "index.html"
-})
+// Log out Code Start
+document.getElementById("logOutBtn").addEventListener("click", () => {
+  window.location.href = "index.html";
+});
 // Log out Code Start
